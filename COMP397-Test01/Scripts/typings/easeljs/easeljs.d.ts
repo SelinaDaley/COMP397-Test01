@@ -46,7 +46,7 @@ declare module createjs {
         constructor(imageOrUrl: HTMLImageElement | HTMLCanvasElement | HTMLVideoElement | string | Object);
 
         // properties
-        image: HTMLImageElement | HTMLCanvasElement | HTMLVideoElement;
+        image: HTMLImageElement | HTMLCanvasElement | HTMLVideoElement | Object;
         sourceRect: Rectangle;
 
         // methods
